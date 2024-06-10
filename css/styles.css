@@ -293,7 +293,7 @@ header {
 }
 
 #reviews{
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
