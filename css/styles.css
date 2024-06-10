@@ -300,7 +300,6 @@ header {
   text-align: center;
   /* background-repeat: no-repeat;
   background-size: 100%  100%; */
-
 }
 .mySlides p{
   align-items: center;
@@ -658,7 +657,7 @@ background-color: #EFEFEF;
   background-color: #222222;
   padding: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #footer-one p:nth-child(1){
   font-family: Poppins;
@@ -691,7 +690,7 @@ list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
-  max-width: 400px;
+  max-width: 340px;
 }
 .grid-container-two img {
     width: 100%;
