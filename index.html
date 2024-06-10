@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee's Treats</title>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/swiper.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="navbar" class="fixed-navbar">
+        <img src="./assets/logos/logo-no-background.png" alt="logo" id="logo" height="100">
+        <div id="nav-links">
+                <span ><a href="">HOME</a></span>
+                <span><a href="">MENU</a></span>
+                <span><a href="">RESERVATION</a></span>
+                <span><a href="">GALLERY</a></span>
+                <span><a href="">ABOUT</a></span>
+                <span><a href="">BLOG</a></span>
+                <span><a href="">CONTACT</a></span>
+        </div>
+    </nav>
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="subtext1" class="courgette-regular">Welcome to</span>
+                <span id="subtext2" class="poppins-bold">Bee's Treats</span>
+            </header>
+            <button class="menu-button">Look Menu</button>
+        </div>
+    </section>
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+            <span class="courgette-regular" id="abouttext1">Italian Restaurant</span>
+            <span class="poppins-bold" id="abouttext2">WELCOME</span>
+            </div>
+            <p id="ptext">
+                Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+            </p>
+            <div>
+                <a href="" class="our-story">
+                    OUR STORY &nbsp; &nbsp;      
+                     <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <img src="./assets/images/heroimg2.jpg" alt="about image" id="aboutimage">
+    </section>
+    <section id="discover">
+        <div class="discover">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">BEE'S TREATS</span>
+        </div>
+    </section>
+    <section id="cards">
+       <div class="cardhome">
+           <img class="cardimg" src="./assets/images/card1.webp" alt="">
+           <div class="cardtext">
+           <a href=""><p>ROMANTIC RESTAURANT</p></a>
+           <p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+           <a href="" class="our-story1">LEARN MORE &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+        </div>
+        <div class="cardhome">
+           <img class="cardimg" src="./assets/images/card2.webp" alt="">
+           <div class="cardtext">
+           <a href=""><p>DELICIOUS FOOD</p></a>
+           <p>Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
+           <a href="" class="our-story1">LEARN MORE &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+        </div>
+        <div class="cardhome">
+           <img class="cardimg" src="./assets/images/card3.webp" alt="">
+           <div class="cardtext">
+           <a href=""><p>RED WINES LOVE YOU</p></a>
+           <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+           <a href="" class="our-story1">LEARN MORE &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+           </div>
+       </div>
+    </section>
+    <section id="menu">
+        <div class="sub-header">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">OUR MENU</span>
+        </div>
+        <div class="gridcontainer">
+               <div class="grid1">
+                <img src="./assets/images/lunch1.jpg" alt="lunch" />
+                <button class="grid-button">Lunch</button>
+            </div>
+                <div class="grid1">
+                    <img src="./assets/images/dinner.jpg" alt="dinner" />
+                    <button class="grid-button">Dinner</button>
+                </div>
+                <div class="grid3">
+                    <img src="./assets/images/drink.jpg" alt="drink" />
+                    <button class="grid-button">Drink</button>
+                </div>
+                <div class="grid3">
+                    <img src="./assets/images/starter.jpg" alt="starter" />
+                    <button class="grid-button">Starters</button>
+                </div>
+                <div class="grid2">
+                    <img src="./assets/images/happy-hour.jpg" alt="happyhour" />
+                    <button class="grid-button">Happy Hour</button>
+                </div>
+                <div class="grid3">
+                    <img src="./assets/images/dessert.jpg" alt="dessert" />
+                    <button class="grid-button">Dessert</button>
+                </div>
+        </div>
+    </section>
+    <!-- <section id="events">
+            <div class="sub-header">
+                <span class="courgette-regular">Upcoming</span>
+                <span class="poppins-bold">EVENTS</span>
+            </div>
+        <div id="events-two">
+
+        </div>
+    </section> -->
+    <section id="reservation">
+        <div id="reservation1">
+            <div class="sub-header">
+                <span class="courgette-regular">Reservation</span>
+                <span class="poppins-bold">BOOK TABLE</span>
+            </div>
+            <form action="">
+                <div id="input-grid">
+                    <span class="form-item">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" placeholder="10/06/2024">
+                    </span>
+                    <span class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name">
+                    </span> 
+                    <span class="form-item">
+                        <label for="time">Time</label>
+                        <select name="time" id="time">
+                          <option value="9">9:00</option>
+                          <option value="93">9:30</option>
+                          <option value="10">10:00</option>
+                          <option value="103">10:30</option>
+                          <option value="11">11:00</option>
+                          <option value="113">11:30</option>
+                          <option value="12">12:00</option>
+                          <option value="123">12:30</option>
+                          <option value="13">13:00</option>
+                          <option value="133">13:30</option>
+                          <option value="14">14:00</option>
+                          <option value="143">14:30</option>
+                          <option value="15">15:00</option>
+                          <option value="153">15:30</option>
+                          <option value="16">16:00</option>
+                          <option value="163">16:30</option>
+                          <option value="17">17:00</option>
+                          <option value="173">17:30</option>
+                          <option value="18">18:00</option>
+                        </select>
+                    </span>
+                    <span class="form-item">
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" placeholder="Phone">
+                    </span>
+                    <span class="form-item">
+                            <label for="people">People</label>
+                            <select name="people" id="people">
+                              <option value="1person">1 person</option>
+                              <option value="2people">2 people</option>
+                              <option value="3people">3 people</option>
+                              <option value="4people">4 people</option>
+                              <option value="5people">5 people</option>
+                              <option value="6people">6 people</option>
+                              <option value="7people">7 people</option>
+                              <option value="8people">8 people</option>
+                              <option value="9people">9 people</option>
+                              <option value="10people">10 people</option>
+                              <option value="11people">11 people</option>
+                              <option value="12people">12 people</option>
+                            </select>
+                    </span>    
+                    <span class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email">
+                    </span>
+                </div>
+                <br><br><br>
+                <button class="rbutton">BOOK TABLE</button>
+            </form>
+        </div>
+        <img src="./assets/images/reservation.jpg" alt="reservation image" id="reservationimg">
+    </section>
+    <!-- <section class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+    </section> -->
+    <section id="reviews">
+        <div id="hero-overlay-two">
+            <div class="sub-header-two">
+                <span class="courgette-regular">Customer Says</span>
+                <span class="poppins-bold">REVIEW</span>
+            </div>
+        </div>
+        <br> <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img class="images-one" src="./assets/images/review1.webp"><br>
+                <span class="txt12">
+                    “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-
+                </span><br><br>
+                <span class="txt12">
+                    -tium nec, fermentum viverra dui ”
+                </span><br><br>
+                <div class="star-review ">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div><br><br>
+                <p class="magin-para">Marie Simmons ˗ New York</p>
+            </div>
+            <div class="mySlides fade">
+                <img class="images-one" src="./assets/images/review2.webp"><br>
+                <span class="txt12">
+                    “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-
+                </span><br><br>
+                <span class="txt12">
+                    -tium nec, fermentum viverra dui ”
+                </span><br><br>
+                <div class="star-review ">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div><br><br>
+                <p class="magin-para">Marie Simmons ˗ New York</p>
+            </div>
+            <div class="mySlides fade">
+                <img class="images-one" src="./assets/images/review3.webp"><br>
+                <span class="txt12">
+                    “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in pre-
+                </span><br><br>
+                <span class="txt12">
+                    -tium nec, fermentum viverra dui ”
+                </span><br><br>
+                <div class="star-review ">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div><br><br>
+                <p class="magin-para">Marie Simmons ˗ New York</p>
+            </div>
+            <button class="arrow-slick1 prev-slick1 slick-arrow" onclick="plusSlides(-1)"><i class="fa fa-angle-left"
+                    aria-hidden="true"></i></button>
+            <button class="arrow-slick1 next-slick1 slick-arrow" onclick="plusSlides(1)"><i class="fa fa-angle-right"
+                    aria-hidden="true"></i></button>
+            <div class="dots-container" style="text-align:center; position:absolute; bottom: 20px; width: 100%;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+<section id="video">
+        <video autoplay>
+            <source src="./assets/videos/discovervideo.mp4" type="video/mp4">
+          </video>
+        <div class="video-overlay">
+            <div class="sub-header">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">OUR VIDEO</span>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="sub-header">
+            <span class="courgette-regular">Latest News</span>
+            <span class="poppins-bold">THE BLOG</span>
+        </div>
+        <div id="blogcards">
+            <div class="cardhome">
+                <img class="cardimg" src="./assets/images/blogcard1.webp" alt="">
+                <div class="cardtext">
+                    <a href="#"><p>BEST PLACES FOR WINE</p></a>
+                    <p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                    <a href="#" class="our-story1">CONTINUE READING &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="cardhome">
+                <img class="cardimg" src="./assets/images/blogcard2.webp" alt="">
+                <div class="cardtext">
+                    <a href="#"><p>EGGS AND CHEESE</p></a>
+                    <p>Duis elementum, risus sit amet lobortis nunc justo condimentum ligula, vitae feugiat</p>
+                    <a href="#" class="our-story1">CONTINUE READING &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="cardhome">
+                <img class="cardimg" src="./assets/images/blogcard3.webp" alt="">
+                <div class="cardtext">
+                    <a href="#"><p>STYLE THE WEDDING PARTY</p></a>
+                    <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                    <a href="#" class="our-story1">CONTINUE READING &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>    
+      <section id="sign">
+        <div id="signup">
+          <p>SPECIALS SIGN UP</p>
+          <form action="">
+            <div class="input-container">
+              <input type="text" placeholder="Email address">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+          </form>
+          <button class="sbutton">SIGN UP</button>
+        </div>
+      </section>
+    <section id="footer">
+        <div id="footer-one">
+           <p>CONTACT US</p>
+           <ul><li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; &nbsp;c8th floor, 379 Hudson St, New York, NY 10018</li><br>
+           <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; &nbsp;(+1) 96 716 6879</li><br>
+           <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; &nbsp;contact@site.com</li></ul><br><br><br>
+           <p id="p-two">OPENING TIMES</p>
+           <ul><li>09:30 AM – 11:00 PM</li>
+           <li>Every Day</li></ul>
+        </div>
+        <div id="footer-two">
+            <p>LATEST TWITTER</p>
+            <p><i class="fab fa-twitter" aria-hidden="true"></i>&nbsp; &nbsp;<a href="">@colorlib</a></p>
+            <p class="p-two">Activello is a good option. It has a slider built into that displays the featured image in the slider</p>
+            <a href="">https://buff.ly/2zaSfAQ</a> <br><br>
+            <span>21 Dec 2017</span> <br><br>
+            <span><i class="fab fa-twitter" aria-hidden="true"></i>&nbsp; &nbsp;<a href="">@colorlib</a></span>
+            <p class="p-two">Activello is a good option. It has a slider built into that displays <a href="">https://buff.ly/2zaSfAQ</a></p><br>
+            <span>21 Dec 2017</span>
+        </div>
+        <div id="footer-three">
+            <p>GALLERY</p>
+            <div class="grid-container-two">
+                <div class="grid-item"><img src="./assets/images/gallery1.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery2.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery3.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery4.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery5.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery6.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery7.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery8.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery9.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery10.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery11.webp" alt=""></div>
+                <div class="grid-item"><img src="./assets/images/gallery12.webp" alt=""></div>
+              </div>    
+        </div>
+    </section>
+    <section id="footer-main">
+        <div id="footermain-one">
+            <!-- <i><img src="./assets/images/tplogo.png" alt="Tripadvisor"> -->
+            <!-- </i>&nbsp; &nbsp;&nbsp; -->
+            <i class="fab fa-tripadvisor" aria-hidden="true"></i>&nbsp; &nbsp;&nbsp;
+            <!-- <i class="fa fa-tripadvisor"></i>&nbsp; &nbsp;&nbsp;  -->
+            <i class="fab fa-facebook"></i>&nbsp; &nbsp;  &nbsp; 
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+        </div>
+        <div id="footermain-two">
+            <span>@ 2017 Colorlib. &nbsp; <a href="">Get The Theme</a></span>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
